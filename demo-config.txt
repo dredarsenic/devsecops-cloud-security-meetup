@@ -1,0 +1,4 @@
+# Application configuration
+APP_ENV=production
+LOG_LEVEL=info
+API_KEY=${API_KEY_FROM_SECRET_MANAGER}
