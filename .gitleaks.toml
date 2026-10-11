@@ -1,0 +1,10 @@
+title = "DevSecOps Meetup Secret Scanning"
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "meetup-demo-secret"
+description = "Detect synthetic credentials used in the meetup"
+regex = '''MEETUP_SECRET_[A-Za-z0-9]{12,}'''
+keywords = ["MEETUP_SECRET_"]
